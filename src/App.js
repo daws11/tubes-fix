@@ -14,6 +14,8 @@ import "./css/payment.css";
 import "./css/alertmsg.css";
 import "./css/slider.css";
 import "./css/common.css";
+import "./components/scss/auth.scss";
+
 
 
 
@@ -45,6 +47,8 @@ import GetTicket from "./components/GetTicket";
 import TicketPrint from "./components/TicketPrint";
 import Error from "./components/Error";
 import ComingSoon from "./components/ComingSoon";
+import Login from "./components/Login";
+import Register from "./components/Register";
 
 //--------------------------------------------------------------
 
@@ -66,6 +70,8 @@ const App = () => {
             <Route path="/ticket/:id" element={<TicketPrint />} />
             <Route path="/reschedule" element={<ComingSoon />} />
             <Route path="/cancel" element={<ComingSoon />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
             <Route path="*" element={<Error />} />
           </Routes>
           <Footer />

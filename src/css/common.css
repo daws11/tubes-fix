@@ -49,6 +49,7 @@ main {
   justify-content: space-between;
   align-items: center;
   position: relative;
+  height: 100px;
 }
 
 .header .container .logo {
@@ -60,7 +61,7 @@ main {
   min-height: 20em;
   background-color: #f0f0f0fc;
   position: absolute;
-  top: 0;
+  top: 7em;
   left: 0;
   display: flex;
   justify-content: center;

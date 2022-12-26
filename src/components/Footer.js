@@ -14,10 +14,6 @@ const Footer = () => {
         <hr />
         <div className="credit">
           <h3>@2022 All Rights Reserved</h3>
-          <section className="credit">
-            <h3>Register as Safar Agent</h3>
-            <h3>Want to become an Operator ?</h3>
-          </section>
         </div>
       </div>
     </footer>

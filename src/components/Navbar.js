@@ -39,7 +39,7 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <Link className="navbar-link" to="/cancel">
+                <Link className="navbar-link" to="/login">
                   <i className="fa-solid fa-sign-in" />
                   <span>Login</span>
                 </Link>
