@@ -38,6 +38,12 @@ const Navbar = () => {
                   <span>Cancel Ticket</span>
                 </Link>
               </li>
+              <li>
+                <Link className="navbar-link" to="/cancel">
+                  <i className="fa-solid fa-sign-in" />
+                  <span>Login</span>
+                </Link>
+              </li>
             </ul>
           </nav>
           <div className="mobile-navbar-btn" onClick={navToggle}>
